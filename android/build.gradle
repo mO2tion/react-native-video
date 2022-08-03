@@ -47,4 +47,8 @@ dependencies {
     }
     implementation 'com.squareup.okhttp3:okhttp:${OKHTTP_VERSION}'
 
+dependencies {
+    //noinspection GradleDynamicVersion
+    implementation "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
+    implementation 'com.github.adityaxjha:Android-ScalableVideoView:10e7b4da8b'
 }
